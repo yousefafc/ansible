@@ -1,0 +1,8 @@
+- hosts: 10.154.0.3
+  tasks:
+  - name: Set-up git
+    yum:
+      name: git
+      state: latest
+    become: true
+...
