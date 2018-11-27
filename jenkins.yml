@@ -1,0 +1,7 @@
+- hosts: 10.154.0.5
+  sudo: True
+  roles:
+    - git
+    - geerlingguy.jenkins
+
+#ansible-galaxy install geerlingguy.jenkins -p ./roles/
