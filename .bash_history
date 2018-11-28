@@ -138,3 +138,116 @@ vim nexus.yml
 ansible-playbook nexus.yml 
 vim nexus.yml
 ansible-playbook nexus.yml 
+ll
+vim nexus.yml 
+mkdir nexus
+cd nexus
+git clone https://github.com/jhinrichsen/ansible-nexus.git
+ll
+cd ansible-nexus/
+ll
+ansible-playbook playbook.yml
+vim playbook.yml 
+ansible-playbook playbook.yml
+ssh 10.154.0.10
+ll
+cd
+ll
+vim jenkins.yml 
+cd nexus
+git clone https://github.com/alexharv074/ansible-nexus.git
+cd
+ll
+rm -rf nexus
+ll
+git status
+git add --all
+git commit -m "second commit"
+git push
+ll
+
+vim java.yml 
+vim nexus.yml 
+vim java.yml 
+vim nexus.yml 
+ansible-playbook nexus.yml
+vim nexus.yml 
+ansible-playbook nexus.yml
+vim nexus.yml 
+vim java.yml 
+vim nexus.yml 
+ansible-playbook jenkins.yml 
+ansible-playbook java.yml 
+ansible-playbook nexus.yml
+ssh 10.154.0.10
+yum search docker
+yum search python3-pip
+yum search python3
+yum search pip
+sudo yum install docker
+ll
+ansible-playbook nexus.yml
+ansible-playbook java.yml 
+ansible-playbook nexus.yml
+clear
+ansible-playbook java.yml 
+sudo yum install python-pip
+ansible-playbook nexus.yml 
+ssh 10.154.0.10
+vim java.yml 
+ansible-playbook jenkins.yml
+vim jenkins.yml 
+ansible-playbook jenkins.yml
+vim jenkins.yml 
+ssh 10.154.0.10
+vim java.yml
+ansible-playbook java.yml
+vim java.yml
+ansible-playbook java.yml
+vim java.yml
+ansible-playbook java.yml
+vim java.yml
+ansible-playbook java.yml
+vim java.yml
+ansible-playbook java.yml
+vim java.yml
+ansible-playbook java.yml
+vim java.yml
+ansible-playbook java.yml
+vim java.yml
+ansible-playbook java.yml
+vim java.yml
+ansible-playbook java.yml
+vim java.yml
+ansible-playbook java.yml
+vim java.yml
+ansible-playbook java.yml
+vim java.yml
+ansible-playbook java.yml
+vim java.yml
+ansible-playbook java.yml
+vim java.yml
+ansible-playbook java.yml
+vim java.yml
+ansible-playbook java.yml
+vim git.yml
+vim java.yml
+vim git.yml
+ansible-playbook java.yml
+wq
+vim git.yml
+vim java.yml
+ansible-playbook java.yml
+vim java.yml
+ansible-playbook java.yml
+vim java.yml
+ansible-playbook java.yml
+ansible-playbook java.retry
+ansible-playbook java.yml
+ansible-playbook jenkins.yml
+ll
+ansible-playbook nexus.yml
+git add nexus.yml 
+git commit -m "nexus"
+git push
+vim nexus.yml

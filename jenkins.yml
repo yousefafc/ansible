@@ -3,5 +3,4 @@
   roles:
     - git
     - geerlingguy.jenkins
-
 #ansible-galaxy install geerlingguy.jenkins -p ./roles/
